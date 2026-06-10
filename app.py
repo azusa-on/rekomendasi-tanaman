@@ -151,7 +151,7 @@ def show_home():
     with col2:
         st.info("""
         **Repository Proyek**
-        🔗 *(Link GitHub/GitLab kamu)*
+        🔗 *https://github.com/azusa-on/rekomendasi-tanaman.git*
         
         **Notebook**
         📓 *https://colab.research.google.com/drive/1lnK_66YZROrRksTe4Yig1urTocwQ-D6Z?usp=sharing*
