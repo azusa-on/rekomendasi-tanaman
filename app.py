@@ -390,7 +390,7 @@ def show_visualization():
         with col1:
             st.metric("🌲 Random Forest", "99.55%", help="Akurasi pada data test")
         with col2:
-            st.metric("👥 KNN (k=3)", "97.95%", help="Akurasi pada data test")
+            st.metric("👥 KNN", "97.95%", help="Akurasi pada data test")
 
         st.markdown("---")
 
@@ -472,7 +472,7 @@ def show_about():
         berdasarkan kemiripan karakteristik N, P, K, 
         suhu, kelembaban, pH, dan curah hujan.
         
-        - Jumlah cluster : k = 7
+        - Jumlah cluster : 7
         - Silhouette Score : 0.33
         - Penentuan k : Elbow Method + Silhouette Score
         """)
@@ -485,7 +485,7 @@ def show_about():
         voting untuk menghasilkan rekomendasi tanaman.
         
         - Jumlah pohon : 100
-        - Akurasi : XX.XX%
+        - Akurasi : 99.55%
         """)
 
     with col2:
@@ -496,8 +496,8 @@ def show_about():
         kemiripan dengan k tetangga terdekat di 
         ruang fitur yang telah dinormalisasi.
         
-        - Nilai k : 3
-        - Akurasi : XX.XX%
+        - Nilai k : 5
+        - Akurasi : 97.95%
         - Normalisasi : StandardScaler
         """)
 
